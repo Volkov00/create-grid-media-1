@@ -1,4 +1,55 @@
 @import "./grid.css";
-.row > *{
-  border: 1px solid blue;
+@import url('https://fonts.googleapis.com/css2?family=Revalia&display=swap');
+:root{
+  --color-dark-blue:#34547A;
+}
+body{
+  background-color: #EEEFF1;
+}
+*{
+  text-decoration: none;
+  color: inherit;
+}
+.head {
+padding: 30px;
+max-width: 1000px;
+}
+.list {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+}
+.nav-list{
+  
+}
+.list-item{
+  padding: 0 20px;
+}
+.head-logo{
+  color:var(--color-dark-blue);
+  font-size: 48px;
+  font-family: 'Revalia', cursive;
+text-align: center;
+}
+.list-item:first-child{
+  color:var(--color-dark-blue);
+}
+
+
+
+.block-1{
+margin: 100px auto 0;
+max-width: 1000px;
+}
+
+.block-1-content p {
+  padding: 50px 0;
+}
+.block-1-content h1{
+  font-weight: 500;
+  font-size: 48px;
+}
+.block-1-img{
+  margin: 0 auto;
+  display: block;
 }
