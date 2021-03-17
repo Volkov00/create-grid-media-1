@@ -1,15 +1,40 @@
 @import "./grid.css";
-@import url('https://fonts.googleapis.com/css2?family=Revalia&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Revalia&display=swap");
 @import "./element-text.css";
-:root{
-  --color-dark-blue:#34547A;
-  --color-white:white;
+:root {
+  --color-dark-blue: #34547a;
+  --color-white: white;
 }
-body{
-  background-color: #EEEFF1;
-  font-family: 'Roboto', sans-serif;
+body {
+  background-color: #eeeff1;
+  font-family: "Roboto", sans-serif;
 }
-*{
+* {
   text-decoration: none;
   color: inherit;
+}
+
+.porfolio {
+  background-color: var(--color-dark-blue);
+  padding: 60px 0;
+}
+
+.portfolio-content {
+}
+.portfolio-row {
+}
+.portfolio-block {
+  display: flex;
+  margin: 0 auto;
+}
+.portfolio-block-img {
+}
+.portfolio-img {
+}
+.item-content {
+  flex-direction: column;
+  display: flex;
+  justify-content: center;
+  color: white;
+  padding: 10px 0 10px 10px;
 }
