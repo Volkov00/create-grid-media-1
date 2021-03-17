@@ -2,12 +2,18 @@
  padding-left: var(--padding-value);
   padding-right: var(--padding-value);
   */
+
+  *{
+    box-sizing: border-box;
+  }
 .container{
  --column-count: 12;
  --pad-size: 1rem;
  --padding-value:calc(var(--pad-size) / 2);
   width: 100%;
   margin: 0 auto;
+  padding-left: var(--padding-value);
+  padding-right: var(--padding-value);
 }
 .row{
 display: flex;

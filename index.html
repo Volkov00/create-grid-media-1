@@ -6,33 +6,70 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="./assets/style/reset.css" />
     <link rel="stylesheet" href="./assets/style/style.css" />
-    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./assets/style/header.css" />
+    <link rel="stylesheet" href="./assets/style/design.css" />
+    <link rel="stylesheet" href="./assets/style/about.css">
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap"
+      rel="stylesheet"
+    />
     <title>Grid WebSite</title>
   </head>
   <body>
-<header class="head container">
-  <nav class="row nav-list">
-    <div class="col-4 head-logo">WD</div>
-      <ul class="list col-8" >
-        <li class="list-item"><a href="#" class="list-item-link">Главная</a></li>
-        <li class="list-item"><a href="#" class="list-item-link">Об Авторе</a></li>
-        <li class="list-item"><a href="#" class="list-item-link">Работы</a></li>
-        <li class="list-item"><a href="#" class="list-item-link">Процесс</a></li>
-        <li class="list-item"><a href="#" class="list-item-link">Контакты</a></li>
-      </ul>
-  </nav>
-</header>
-<main class="container main">
-<section class="row block-1" >
-<div class="col-5 col-md-12 col-xxl-5 block-1-container-img">
-  <img src="./assets/img/Frame.png" alt="pc" class="block-1-img">
-</div>
-<div class="col-6 col-md-12 col-xxl-6 block-1-content">
-  <h1 class="block-1-title">Дизайн и верстка</h1>
-  <p class="block-1-text">Lorem Ipsum - это текст-"рыба", часто используемый в печати и вэб-дизайне. Lorem Ipsum является стандартной "рыбой" для текстов на латинице с начала XVI века.</p>
-  <a class="block-link" href="#">Написать мне</a>
-</div>
-</section>
-</main>
-</body>
+    <header class="container head">
+      <nav class="row nav-list">
+        <div class="col-2 head-logo">WD</div>
+        <ul class="list col-10">
+          <li class="list-item">
+            <a href="#" class="list-item-link">Главная</a>
+          </li>
+          <li class="list-item">
+            <a href="#" class="list-item-link">Об Авторе</a>
+          </li>
+          <li class="list-item">
+            <a href="#" class="list-item-link">Работы</a>
+          </li>
+          <li class="list-item">
+            <a href="#" class="list-item-link">Процесс</a>
+          </li>
+          <li class="list-item">
+            <a href="#" class="list-item-link">Контакты</a>
+          </li>
+        </ul>
+      </nav>
+    </header>
+    <main class="main">
+      <section class="design-1">
+        <div class="container content">
+          <div class="row design-row">
+            <div class="col-6 design-container-img">
+              <img src="./assets/img/Frame.png" alt="pc" class="design-1-img" />
+            </div>
+            <article class="col-6 content">
+              <h1 class="design-1-title">Дизайн и верстка</h1>
+              <p class="design-1-text">
+                Lorem Ipsum - это текст-"рыба", часто используемый в печати и
+                вэб-дизайне. Lorem Ipsum является стандартной "рыбой" для текстов на
+                латинице с начала XVI века.
+              </p>
+              <a class="design-link" href="#">Написать мне</a>
+            </article>
+          </div>
+        </div>
+      </section>
+      <section class="about">
+        <div class="container">
+          <article class="row about-content">
+            <h2 class="col-12 about-tittle block-title">Обо мне</h2>
+            <p class="col-5 about-text block-text">
+              Lorem Ipsum - это текст-"рыба", часто используемый в печати и
+              вэб-дизайне. Lorem Ipsum является стандартной "рыбой" для текстов на
+              латинице с начала XVI века.
+            </p>
+          </article>
+        </div>
+      </section>
+
+    </main>
+  </body>
 </html>
