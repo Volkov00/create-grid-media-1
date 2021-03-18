@@ -1,6 +1,7 @@
 @import "./grid.css";
 @import url("https://fonts.googleapis.com/css2?family=Revalia&display=swap");
 @import "./element-text.css";
+@import "./project-screen.css";
 :root {
   --color-dark-blue: #34547a;
   --color-white: white;
@@ -13,3 +14,5 @@ body {
   text-decoration: none;
   color: inherit;
 }
+
+
