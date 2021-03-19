@@ -12,6 +12,12 @@
     <link rel="stylesheet" href="./assets/style/work.css" />
     <link rel="stylesheet" href="./assets/style/skills.css" />
     <link rel="stylesheet" href="./assets/style/portfolio.css" />
+    <link rel="stylesheet" href="./assets/style/website.css">
+    <link rel="stylesheet" href="./assets/style/microsoft.css">
+    <link rel="stylesheet" href="./assets/style/footer.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"
+      integrity="sha512-iBBXm8fW90+nuLcSKlbmrPcLa0OT92xO1BIsZ+ywDWZCvqsWgccV3gFoRBv0z+8dLJgyAHIhR35VZc2oM/gI1w=="
+      crossorigin="anonymous" />
     <link
       href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap"
       rel="stylesheet"
@@ -19,10 +25,12 @@
     <title>Grid WebSite</title>
   </head>
   <body>
-    <header class="container head">
+    <header>
+      <div class="head">
+      <div class="container head-container">
       <nav class="row nav-list">
-        <div class="col-2 head-logo">WD</div>
-        <ul class="list col-10">
+        <div class="head-logo">WD</div>
+        <ul class="list">
           <li class="list-item">
             <a href="#" class="list-item-link">Главная</a>
           </li>
@@ -40,15 +48,17 @@
           </li>
         </ul>
       </nav>
+      </div>
+      </div>
     </header>
     <main class="main">
       <section class="design-1">
         <div class="container content">
           <div class="row design-row">
-            <div class="col-6 design-container-img">
+            <div class="col-12 col-sm-12 col-md-6  col-xl-6 col-xxl-6 design-container-img">
               <img src="./assets/img/Frame.png" alt="pc" class="design-1-img" />
             </div>
-            <article class="col-6 content">
+            <article class="col-12 col-sm-12 col-md-5  col-xl-5 col-xxl-5 content">
               <h1 class="design-1-title">Дизайн и верстка</h1>
               <p class="design-1-text">
                 Lorem Ipsum - это текст-"рыба", часто используемый в печати и
@@ -64,7 +74,7 @@
         <div class="container">
           <article class="row about-content">
             <h2 class="col-12 about-tittle element-title">Обо мне</h2>
-            <p class="col-12 col-sm-9 col-md-9 col-xl-5 col-xxl-5 about-text element-text">
+            <p class="col-10 col-sm-9 col-md-9 col-xl-5 col-xxl-5 about-text element-text">
               Lorem Ipsum - это текст-"рыба", часто используемый в печати и
               вэб-дизайне. Lorem Ipsum является стандартной "рыбой" для текстов
               на латинице с начала XVI века.
@@ -75,7 +85,7 @@
       <section class="porfolio">
         <div class="portfolio-container container">
           <div class="portfolio-row row">
-            <div class="portfolio-block col-6 col-md-2">
+            <div class="portfolio-block col-6 col-sm-4 col-md-2 col-xl-2">
               <div class="portfolio-block-img">
                 <img
                   src="./assets/img/Group.png"
@@ -88,7 +98,7 @@
                 <span>проектов</span>
               </div>
             </div>
-            <div class="portfolio-block col-6  col-md-2">
+            <div class="portfolio-block col-6 col-sm-4 col-md-2 col-xl-2">
               <div class="portfolio-block-img">
                 <img
                   src="./assets/img/Group.png"
@@ -101,7 +111,7 @@
                 <span>проектов</span>
               </div>
             </div>
-            <div class="portfolio-block col-6 col-md-2">
+            <div class="portfolio-block col-6 col-sm-4 col-md-2 col-xl-2">
               <div class="portfolio-block-img">
                 <img
                   src="./assets/img/Group.png"
@@ -114,7 +124,7 @@
                 <span>проектов</span>
               </div>
             </div>
-            <div class="portfolio-block col-6 col-md-2">
+            <div class="portfolio-block col-6 col-sm-4 col-md-2 col-xl-2">
               <div class="portfolio-block-img">
                 <img
                   src="./assets/img/Group.png"
@@ -127,7 +137,7 @@
                 <span>проектов</span>
               </div>
             </div>
-            <div class="portfolio-block col-6 col-md-2">
+            <div class="portfolio-block col-6 col-sm-4 col-md-2 col-xl-2">
               <div class="portfolio-block-img">
                 <img
                   src="./assets/img/Group.png"
@@ -140,7 +150,7 @@
                 <span>проектов</span>
               </div>
             </div>
-            <div class="portfolio-block col-6 col-md-2">
+            <div class="portfolio-block col-6 col-sm-4 col-md-2 col-xl-2">
               <div class="portfolio-block-img">
                 <img
                   src="./assets/img/Group.png"
@@ -159,7 +169,7 @@
       <section class="skills">
         <div class="container skills-container">
           <div class="row skills-row">
-            <div class="skill-item col-12 col-sm-12 col-md-12 col-xl-6 col-xxl-5">
+            <div class="skill-item col-12 col-sm-12 col-md-5 col-lg-5 col-xl-5 col-xxl-5">
               <h2 class="element-title">Мои навыки</h2>
               <div class="skills-adobe">
                 <span class="element-text skills-text">Adobe Photoshope</span>
@@ -174,7 +184,7 @@
                 <div class="adobe"></div>
               </div>
             </div>
-            <div class="skills-photo-container col-12 col-sm-12 col-md-12 col-xl-6 col-xxl-7">
+            <div class="skills-photo-container col-12 col-sm-12 col-md-7 col-lg-7 col-xl-7 col-xxl-7">
               <img
                 src="./assets/img/GettyImages-913859066-e1536927820234.jpg"
                 alt=""
@@ -188,25 +198,63 @@
         <div class="container working-container">
           <article class="row working-row">
             <h2 class="col-12 working-tittle element-title">Как я работаю!</h2>
-            <p class="col-5 working-text element-text">
+            <p class="col-12 col-md-10 col-lg-5 col-xl-5 col-xxl-5 working-text element-text">
               Lorem Ipsum - это текст-"рыба", часто используемый в печати и
               вэб-дизайне. Lorem Ipsum является стандартной "рыбой" для текстов
               на латинице с начала XVI века.
             </p>
-            <div class="col-12 col-xl-12 col-md-12 outer-wrapper">
+            <div class="col-12 col-xl-8 col-md-8 col-xxl-8  outer-wrapper">
               <div class="inner-wrapper">
-                <iframe
-                  class="video"
-                  src="https://www.youtube.com/embed/J6QfsBXv6Oo"
-                  frameborder="0"
-                  allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-                  allowfullscreen
-                ></iframe>
+                <iframe 
+                  class="video" src="https://www.youtube.com/embed/9lO06Zxhu88" title="YouTube video player"
+                  frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                  allowfullscreen>
+                </iframe>
               </div>
             </div>
           </article>
         </div>
       </section>
+      <div class="microsoft">
+        <div class="microsoft-container container">
+        <div class="microsoft-img row">
+          <img src="./assets/img/microsoft.jpg" alt="Logo Microsoft">
+          <img src="./assets/img/microsoft.jpg" alt="Logo Microsoft">
+          <img src="./assets/img/microsoft.jpg" alt="Logo Microsoft">
+          <img src="./assets/img/microsoft.jpg" alt="Logo Microsoft">
+        </div>
+        </div>
+      </div>
+      <section class="website">
+        <article class="container website-container">
+            <div class="website-information row">
+            <h2 class="website-title element-title col-12">Хотите веб-сайт?</h2>
+            <p class="website-text element-text col-12 col-md-10 col-lg-5 col-xl-5 col-xxl-5">Lorem Ipsum - это текст-"рыба", часто используемый в печати и вэб-дизайне. Lorem Ipsum является стандартной "рыбой" для
+            текстов на латинице с начала XVI века.</p>
+          </div>
+          <form class="website-form">
+            <div class="form-inform">
+              <input type="text" name="name" class="name" placeholder="Ваше имя">
+              <input type="email" name="mail" class="mail" placeholder="Ващ e-mail">
+            </div>
+            <textarea name="message" rows="10" class="message" placeholder="Сообщение"></textarea>
+          </form>
+          <a href="" class="website-link button">Отправить</a>
+        </article>
+      </section>
     </main>
+      <footer class="footer">
+        <div class="foot-container container">
+          <div class="info-block">
+            <h2>Mark Volkov</h2>
+            <span>© 2021. Все права защищены.</span>
+          </div>
+          <div class="block-img">
+            <a class="foot-link" href="#"><i class="fab fa-js-square"></i></a>
+            <a class="foot-link" href="#"><i class="fab fa-angrycreative"></i></a>
+            <a class="foot-link" href="#"><i class="fab fa-aviato"></i></a>
+          </div>
+        </div>
+      </footer>
   </body>
 </html>

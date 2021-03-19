@@ -12,8 +12,8 @@
 .skills-adobe {
   padding: 15px 0;
 }
-.skills-text{
- padding: 10px 0;
+.skills-text {
+  padding: 10px 0;
 }
 .adobe {
   width: 70%;
@@ -28,17 +28,14 @@
   height: 100%;
 }
 
-@media screen and (max-width:1198px){
-  .adobe {
-    width: 80%;
-  }
-  .skill-item{
+@media screen and (max-width: 1198px) {
+  .skill-item {
     display: flex;
     flex-direction: column;
     align-items: stretch;
     text-align: -webkit-center;
- }
- .skills-row{
-  text-align: center;
- }
+  }
+  .skills-row {
+    text-align: center;
+  }
 }

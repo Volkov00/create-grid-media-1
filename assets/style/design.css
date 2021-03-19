@@ -1,7 +1,6 @@
 .design-1 {
 }
 .content {
-  max-width: 1100px;
 }
 .design-1-text {
   line-height: 26px;
@@ -12,7 +11,6 @@
 .design-1-title {
   font-weight: 500;
   font-size: 48px;
-  line-height: 79px;
 }
 .design-container-img {
   text-align: center;
@@ -29,10 +27,15 @@
   text-transform: uppercase;
   font-size: 12px;
   display: inline-block;
-  line-height: 25px;
   letter-spacing: 0.1em;
 }
 .design-row {
   padding: 30px 0 100px;
   align-items: center;
+}
+@media screen and (max-width: 764px) {
+  .content {
+    text-align: center;
+    margin-top: 15px;
+  }
 }
