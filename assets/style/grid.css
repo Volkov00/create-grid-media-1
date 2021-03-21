@@ -10,9 +10,11 @@
 * {
   box-sizing: border-box;
 }
-.no-margin {
-  margin-left: 0;
-  margin-right: 0;
+.no-gutters {
+  margin: 0;
+}
+.no-gutters > * {
+  padding: 0;
 }
 .container {
   width: 100%;
