@@ -21,8 +21,11 @@
   display: inline-block;
 }
 .in-wrapper:hover::after {
-  content: "";
+  content: url("../img/view.png");
   background-color: var(--color-dark-blue);
+  display: flex;
+  align-items: center;
+  justify-content: center;
   position: absolute;
   top: 0;
   left: 0;
@@ -30,20 +33,8 @@
   right: 0;
   bottom: 0;
 }
-.in-wrapper:hover:before {
-  content: url(../img/view.png);
-  position: absolute;
-  opacity: 1;
-  z-index: 5;
-  top: 40%;
-  left: 40%;
-  display: inline-block;
-}
-
 @media screen and (max-width: 830px) {
   .out-wrapper {
     width: 100%;
-  }
-  .photo-img {
   }
 }
